@@ -1,0 +1,78 @@
+.responsive {
+   max-width: 50%;
+   height: auto;
+ }
+ 
+.ghi
+{
+    color: #b3b3b3;
+    font-family: 'Aldrich';
+    font-size: 1.25vw;
+    text-decoration: none;
+    letter-spacing: 0px;
+    position: absolute;
+    text-align: left;
+    margin-left: 1%;
+    top: 10%;
+    left: 60%;
+    margin-right: 5%;
+    text-shadow: 0 20px 25px #0d0d0d;
+    text-transform: initial;
+} 
+
+.ghj
+{
+    color: #b3b3b3;
+    font-size: 2vw;
+    text-decoration: none;
+    font-family: 'Aldrich';
+    letter-spacing: 0px;
+    position: fixed;
+    top: 50%;
+    right: 60%;
+    margin-right: 5%;
+    text-shadow: 0 20px 25px #0d0d0d;
+}
+@media screen and (max-width: 600px){
+    .ghi{
+        font-size: 2.8vw;
+        top: 35%;
+        left: 10%;
+        overflow-y: visible;
+    }
+    .ghj{
+        font-size: 4vw;
+       top: 20%;
+       right: 22.5%;
+    }
+}
+.ghi
+{
+    animation: transitionIn 0.9s;
+}
+@keyframes transitionIn {
+    from
+    {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    } 
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+.ghj
+{
+    animation: transitionIn 0.9s;
+}
+@keyframes transitionIn {
+    from
+    {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    } 
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}

@@ -1,0 +1,15 @@
+.body1 {
+  overflow-y: inherit;
+}
+.btn {
+  border: none;
+}
+.navbar{
+  opacity: 85%;
+  background: linear-gradient(rgba(10, 10, 10, 0.6), rgba(0, 0, 0, 0.9));
+}
+@media screen and (max-width: 600px){
+  .navbar{
+      opacity: 90%;
+  }
+
